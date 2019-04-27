@@ -1,0 +1,6 @@
+includes()
+every()
+some()
+filter()
+map()
+reduce()

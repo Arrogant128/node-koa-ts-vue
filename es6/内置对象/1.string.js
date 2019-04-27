@@ -1,0 +1,4 @@
+startsWith()
+endWith()
+includes()
+repeat()
