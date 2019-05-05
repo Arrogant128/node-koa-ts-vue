@@ -5,5 +5,6 @@ function* f () {
 }
 let f1 = f()
 
-// f1.next()
+f1.next()
+
 // f1.next()
