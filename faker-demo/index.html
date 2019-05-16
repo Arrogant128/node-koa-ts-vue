@@ -1,0 +1,41 @@
+<!--
+ * @Author: yu shijun
+ * @Date: 2019-05-15 13:54:19
+ * @LastEditors: yu shijun
+ * @LastEditTime: 2019-05-15 16:47:53
+ * @Description: 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+        <ul id="todo-app">
+                <li class="item">Walk the dog</li>
+                <li class="item">Pay bills</li>
+                <li class="item">Make dinner</li>
+                <li class="item">Code for one hour</li>
+              </ul>
+    <script src="http://marak.github.io/faker.js/"></script>
+    <script>
+        // faker.locale = 'zh_CN'
+        // const user = {
+        //     name: faker.name.findName(),
+        //     uid: faker.random.uuid()
+        // }
+        // console.log(user)
+        const todoApp = document.getElementById('todo-app')
+        todoApp.addEventListener('click', function(e) {
+            console.log('event', e.target)
+        })
+        console.log(todoApp)
+    </script>
+</body>
+
+</html>
